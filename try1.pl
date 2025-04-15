@@ -126,7 +126,7 @@ match_letter(Cell, Letter) :-
 % Print in row order
 
 % Print each row 
-print_puzzle([]).
+
 print_puzzle([Row|Rows]) :-
     print_row(Row),
     nl,
